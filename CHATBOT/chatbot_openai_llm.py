@@ -13,7 +13,7 @@ st.header("Chatbot-Train it")
 
 #uploading specfic domian pdf:
 with st.sidebar:
-    st.title("Domian Specific Documents:")
+    st.title("Domain Specific Documents:")
     file = st.file_uploader("Upload a pdf file to train chatbot:", type="pdf")
 
 #string intialization:
