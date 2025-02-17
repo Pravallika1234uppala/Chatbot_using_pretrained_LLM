@@ -46,7 +46,7 @@ if file is not None:
     if chunks:
 
 
-        embeddings = OpenAIEmbeddings(openai_api_key="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")
+        embeddings = OpenAIEmbeddings(openai_api_key="#Give open ai api key")
 
         #this generates emmedings
 
@@ -71,7 +71,7 @@ if file is not None:
 
             #llm(to generate answers from matches)
             llm = ChatOpenAI(
-                openai_api_key="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",
+                openai_api_key="#Give open ai api key",
                 temperature=0,
                 max_tokens=100,
                 model_name="gpt-3.5-turbo"
